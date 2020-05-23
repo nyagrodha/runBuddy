@@ -12,3 +12,6 @@ https://nyagrodha.github.io/runBuddy
 
 ## Contribution
 Made with 🤎 by Ralphie
+
+
+### ©️2020 Run Buddy, Inc
