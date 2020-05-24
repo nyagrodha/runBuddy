@@ -78,45 +78,79 @@
         </section>
         <!--"What we do" section-->
         <section id="what-we-do" class="intro">
-            <h2 class="section-title primary border">What We Do</h2>
-            <p>
-            Spicy jalapeno bacon ipsum dolor amet drumstick ribeye ground round cow, chislic short ribs chuck capicola frankfurter leberkas shank. Rump pork chop bacon shankle jerky. Pork meatball brisket alcatra beef ribs chislic fatback landjaeger bacon shankle jerky pig biltong. Strip steak turkey ground round doner tongue beef ribs. Pork pork chop kevin capicola, shoulder prosciutto hamburger. Andouille brisket t-bone leberkas ball tip spare ribs pork belly, turkey boudin beef ham. Biltong chuck swine, spare ribs turkey short ribs beef ribs chicken brisket ball tip meatloaf leberkas ham.
-            </p>
+            <!--wrap every h2 with class of "section-title" with a div of class="flex-row"-->
+            <div class="flex-row">
+                <h2 class="section-title primary border">What We Do</h2>
+            </div>   
+                    <p>
+                        Spicy jalapeno bacon ipsum dolor amet drumstick ribeye ground round cow, chislic short ribs chuck capicola frankfurter leberkas shank. Rump pork chop bacon shankle jerky. Pork meatball brisket alcatra beef ribs chislic fatback landjaeger bacon shankle jerky pig biltong. Strip steak turkey ground round doner tongue beef ribs. Pork pork chop kevin capicola, shoulder prosciutto hamburger. Andouille brisket t-bone leberkas ball tip spare ribs pork belly, turkey boudin beef ham. Biltong chuck swine, spare ribs turkey short ribs beef ribs chicken brisket ball tip meatloaf leberkas ham.
+                    </p>
         </section>
         <!--"What you do" section-->
         <section id="what-you-do" class="steps">
-            <h2 class="section-title secondary border">What You Do</h2>
-
-            <div>
-                <!--insert XML image element-->
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
-                <p>You're already here, so why not?</p>
+            <div class="flex-row"> 
+                <h2 class="section-title secondary border">What You Do</h2>
+            </div>
+            <div class="step">
+                <h3>Step 1:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <!--XML image element-->
+                        <img src="./assets/images/step-1.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Fill Out the Form Above.</h4>
+                        <p>You're already here, so why not?</p>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <img src="./assets/images/step-2.svg" alt="" />
-                <h3>Step 2: <span>Consult with one of our trainers.</span></h3>
-                <p>Are you here to build muscle, to lose weight, or just to feel good?</p>
+            <div class="step">
+                <h3>Step 2:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-2.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Consult with one of our trainers.</h4>
+                        <p>Are you here to build muscle, to lose weight, or just to feel good?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="step">
+                <h3>Step 3:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-3.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Get running.</h4>
+                        <p>Hit the ground (literally) once your trainer lays out your plan.</p>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <img src="./assets/images/step-3.svg" alt="" />
-                <h3>Step 3: <span>Get running.</span></h3>
-                <p>Hit the ground (literally) once your trainer lays out your plan.</p>
-            </div>
-
-            <div>
-                <img src="./assets/images/step-4.svg" alt="" />         
-                <h3>Step 4: <span>See results.</span></h3>
-                <p>Bi-weekly checkins with your trainer will help to keep you focused.</p>
+            <div class="step">
+                <h3>Step 4:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-4.svg" alt="" />
+                    </div>
+                    <div class="step-text">       
+                        <h4>See results.</h4>
+                        <p>Bi-weekly checkins with your trainer will help to keep you focused.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!--"meet the trainers" section-->
         <section id="your-trainers" class="trainers">
-            <h2 class="section-title primary border">
-            Meet The Trainers
-            </h2>
+            <!--wrapping an h2 with div of class "flex-row"-->
+            <div class="flex-row">
+                <h2 class="section-title primary border">
+                    Meet The Trainers
+                </h2>
+            </div>
                 <article class="trainer">
                     <img src="./assets/images/trainer-1.jpg" alt="Aaron Stephens in his workout clothes, ready to pump iron" />
                     <div class="trainer-bio text-left">
@@ -124,9 +158,11 @@
                             <h4>
                                 Speed / Strength
                             </h4>
-                                <p>
-                                    I'm tattooed gentrify activated charcoal organic cray humblebrag biodiesel tote bag you probably haven't heard of them subway raw denim. Tacos tumblr heirloom succulents adaptogen. Flannel cold-pressed enamel tote bag retro kinfolk manbun vaporware meggings bicycle rights subway tile banh mi. Dummy text? More like dummy thicc text, amirite?
-                                </p>
+                                <div class="flex-row">
+                                    <p>
+                                        I'm tattooed gentrify activated charcoal organic cray humblebrag biodiesel tote bag you probably haven't heard of them subway raw denim. Tacos tumblr heirloom succulents adaptogen. Flannel cold-pressed enamel tote bag retro kinfolk manbun vaporware meggings bicycle rights subway tile banh mi. Dummy text? More like dummy thicc text, amirite?
+                                    </p>
+                                </div>
                     </div>
                 </article>
 
@@ -136,9 +172,11 @@
                             <h4>
                                 Endurance
                             </h4>
-                                <p>
-                                    I'm baby gochujang single-origin coffee seitan fanny pack deep v, selfies readymade waistcoat neutra. Mustache swag truffaut YOLO humblebrag. Lomo affogato hoodie, fixie ugh af chartreuse hammock umami franzen scenester poke locavore. Brunch dreamcatcher woke cornhole etsy blog.
-                                </p>
+                                <div class="flex-row">
+                                    <p>
+                                        I'm baby gochujang single-origin coffee seitan fanny pack deep v, selfies readymade waistcoat neutra. Mustache swag truffaut YOLO humblebrag. Lomo affogato hoodie, fixie ugh af chartreuse hammock umami franzen scenester poke locavore. Brunch dreamcatcher woke cornhole etsy blog.
+                                    </p>
+                                </div>
                     </div>
                     <img src="./assets/images/trainer-2.jpg" alt="JoAnna Gill cooling off after a workout" />
                 </article>
@@ -149,15 +187,19 @@
                             <h4>
                             Strength
                             </h4>
-                                <p>
-                                    I'm tacos kickstarter fashion axe small batch. 90's gentrify godard photo booth tumblr hashtag. Schlitz hell of organic, everyday carry hoodie PBR&B cardigan tilde. Hoodie enamel pin pitchfork kinfolk DIY meditation.
-                                </p>
+                                <div class="flex-row">
+                                    <p>
+                                        I'm tacos kickstarter fashion axe small batch. 90's gentrify godard photo booth tumblr hashtag. Schlitz hell of organic, everyday carry hoodie PBR&B cardigan tilde. Hoodie enamel pin pitchfork kinfolk DIY meditation.
+                                    </p>
+                                </div>
                     </div>
                 </article>
         </section>
         <!--"reach out" section-->
         <section id="reach-out" class="contact">
-            <h2 class="section-title secondary border">Reach out</h2>
+            <div class="flex-row">
+                <h2 class="section-title secondary border">Reach out</h2>
+            </div>
             <div class="contact-info">
                 <div class="contact-form">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11650.055648184427!2d-89.64901536038666!3d43.114729266293374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8807a140c096d795%3A0xaa0d0dd9fd010145!2s2607%20Eller%20St%2C%20Cross%20Plains%2C%20WI%2053528!5e0!3m2!1sen!2sus!4v1589676669148!5m2!1sen!2sus" width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" ></iframe>
