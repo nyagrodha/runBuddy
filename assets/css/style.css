@@ -178,6 +178,7 @@ section {
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
+    width: 80;
     border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
@@ -189,6 +190,23 @@ section {
 .step h3 {
     color:#024e76;
     font-size: 46px;
+    flex: 1 30%;
+}
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-text {
+    flex: 12;
 }
 
 .step-text h4 {
@@ -199,12 +217,14 @@ section {
 
 .step-text p {
     color:#39a6b2;
-    font-size:18px;
+    font-size: 18px;
 }
 
+/* 
 .trainers {
 
 }
+*/
 
 .trainer {
     width:900px;
@@ -223,18 +243,6 @@ section {
     padding: 35px;
     float: left;
     width: 65%;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
 }
 
 .trainer-bio h3 {
@@ -294,3 +302,15 @@ section {
 }
 
 /*reach out styles end */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
