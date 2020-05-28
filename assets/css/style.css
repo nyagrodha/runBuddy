@@ -381,13 +381,14 @@ section {
 
 .service-grid-container {
     display: grid;
+    grid-template-columns: 200px 200px;
 }
 
 .service-grid-item {
     width: 200px;
     height: 50px;
     background-color: orange;
-    boder: solid;
+    border: solid;
     color: black;
 }
 
